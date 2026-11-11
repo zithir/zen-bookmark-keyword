@@ -1,0 +1,17 @@
+{
+  "id": "zen-bookmark-keyword",
+  "name": "Bookmark Keyword Field",
+  "description": "Shows the Keyword field in Zen's Add/Edit bookmark dialog and the star popup, so you can add or edit a bookmark keyword directly when saving. Brings back Vivaldi-style bookmark aliases.",
+  "version": "1.0.0",
+  "scripts": {
+    "bookmark-keyword.uc.js": {
+      "include": [
+        "chrome://browser/content/browser.xhtml",
+        "chrome://browser/content/places/bookmarkProperties.xhtml"
+      ]
+    }
+  },
+  "fork": ["zen"],
+  "author": "lukaskvapil",
+  "homepage": "https://github.com/zithir/zen-bookmark-keyword"
+}

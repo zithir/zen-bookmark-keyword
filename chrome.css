@@ -1,0 +1,6 @@
+/* Bookmark Keyword Field — small polish so the field matches Zen's layout. */
+
+#editBMPanel_keywordField {
+  width: 100%;
+  box-sizing: border-box;
+}
